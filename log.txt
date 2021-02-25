@@ -1,0 +1,244 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building packer 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ packer ---
+[INFO] Deleting C:\Users\C62975\Files\Game\packer\packer\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ packer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ packer ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to C:\Users\C62975\Files\Game\packer\packer\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ packer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ packer ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to C:\Users\C62975\Files\Game\packer\packer\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ packer ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mobiquity.packer.controller.PackerControllerIntegrationTest
+18:15:17.187 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.mobiquity.packer.controller.PackerControllerIntegrationTest]
+18:15:17.196 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:15:17.208 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:15:17.258 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.mobiquity.packer.controller.PackerControllerIntegrationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:15:17.273 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mobiquity.packer.controller.PackerControllerIntegrationTest], using SpringBootContextLoader
+18:15:17.277 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]: class path resource [com/mobiquity/packer/controller/PackerControllerIntegrationTest-context.xml] does not exist
+18:15:17.277 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]: class path resource [com/mobiquity/packer/controller/PackerControllerIntegrationTestContext.groovy] does not exist
+18:15:17.278 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:15:17.340 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]
+18:15:17.489 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]: using defaults.
+18:15:17.490 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+18:15:17.502 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+18:15:17.503 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+18:15:17.504 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@73a1e9a9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@71d44a3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7b98f307, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4802796d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@34123d65, org.springframework.test.context.support.DirtiesContextTestExecutionListener@59474f18, org.springframework.test.context.event.EventPublishingTestExecutionListener@65fb9ffc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3e694b3f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1bb5a082, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@78691363, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@41d477ed, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3590fc5b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@397fbdb]
+18:15:17.507 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]
+18:15:17.508 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]
+18:15:17.509 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]
+18:15:17.510 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]
+18:15:17.510 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]
+18:15:17.510 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]
+18:15:17.510 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]
+18:15:17.510 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]
+18:15:17.511 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]
+18:15:17.512 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]
+18:15:17.518 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@38425407 testClass = PackerControllerIntegrationTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@43bc63a3 testClass = PackerControllerIntegrationTest, locations = '{}', classes = '{class com.mobiquity.packer.PackerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1f021e6c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4516af24, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@17baae6e, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4f51b3e0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2f490758, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4232c52b], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+18:15:17.521 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]
+18:15:17.521 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mobiquity.packer.controller.PackerControllerIntegrationTest]
+18:15:17.791 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@38425407 testClass = PackerControllerIntegrationTest, testInstance = com.mobiquity.packer.controller.PackerControllerIntegrationTest@7d3e8655, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@43bc63a3 testClass = PackerControllerIntegrationTest, locations = '{}', classes = '{class com.mobiquity.packer.PackerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1f021e6c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4516af24, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@17baae6e, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4f51b3e0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2f490758, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4232c52b], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+18:15:17.824 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2021-02-25 18:15:18.287  INFO 16532 --- [           main] c.m.p.c.PackerControllerIntegrationTest  : Starting PackerControllerIntegrationTest using Java 1.8.0_201 on NLLH4000523908 with PID 16532 (started by C62975 in C:\Users\C62975\Files\Game\packer\packer)
+2021-02-25 18:15:18.291  INFO 16532 --- [           main] c.m.p.c.PackerControllerIntegrationTest  : No active profile set, falling back to default profiles: default
+2021-02-25 18:15:20.061  INFO 16532 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-02-25 18:15:20.072  INFO 16532 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-25 18:15:20.072  INFO 16532 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-25 18:15:20.156  INFO 16532 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-25 18:15:20.156  INFO 16532 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1829 ms
+2021-02-25 18:15:20.516  INFO 16532 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-25 18:15:20.546 DEBUG 16532 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-25 18:15:20.671 DEBUG 16532 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-02-25 18:15:20.762 DEBUG 16532 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-25 18:15:20.781 DEBUG 16532 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-25 18:15:20.948  INFO 16532 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9964 (http) with context path ''
+2021-02-25 18:15:20.959  INFO 16532 --- [           main] c.m.p.c.PackerControllerIntegrationTest  : Started PackerControllerIntegrationTest in 3.133 seconds (JVM running for 4.329)
+2021-02-25 18:15:21.275 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9964/getPackage
+2021-02-25 18:15:21.329 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2021-02-25 18:15:21.348 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Writing [com.mobiquity.packer.model.PackerInputRequest@7f1ef916] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2021-02-25 18:15:21.426  INFO 16532 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-25 18:15:21.426  INFO 16532 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-25 18:15:21.427 DEBUG 16532 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-02-25 18:15:21.427 DEBUG 16532 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-02-25 18:15:21.427 DEBUG 16532 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-02-25 18:15:21.428 DEBUG 16532 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3cf473e6
+2021-02-25 18:15:21.428 DEBUG 16532 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1948d88e
+2021-02-25 18:15:21.429 DEBUG 16532 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-25 18:15:21.429  INFO 16532 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-25 18:15:21.441 DEBUG 16532 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/getPackage", parameters={}
+2021-02-25 18:15:21.446 DEBUG 16532 --- [o-auto-1-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.mobiquity.packer.controller.PackerController#getPackage(PackerInputRequest)
+2021-02-25 18:15:21.490 DEBUG 16532 --- [o-auto-1-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.mobiquity.packer.model.PackerInputRequest@1a61b197]
+2021-02-25 18:15:21.498  INFO 16532 --- [o-auto-1-exec-1] c.m.packer.controller.PackerController   : src/test/resources/example_input
+Calling this process packages
+AbsolutePath:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_input
+Inside try:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_input
+2021-02-25 18:15:21.503 DEBUG 16532 --- [o-auto-1-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.mobiquity.packer.exception.RestResponseAPIExceptionHandler#genericExceptionHandler(Exception)
+2021-02-25 18:15:21.512 DEBUG 16532 --- [o-auto-1-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, application/*+json] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-25 18:15:21.513 DEBUG 16532 --- [o-auto-1-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.mobiquity.packer.model.APIExceptionResponse@102bf596]
+2021-02-25 18:15:21.520 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Response 500 INTERNAL_SERVER_ERROR
+2021-02-25 18:15:21.520 DEBUG 16532 --- [o-auto-1-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2021-02-25 18:15:21.520 DEBUG 16532 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2021-02-25 18:15:21.521 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Reading to [com.mobiquity.packer.model.PackerOutputResponse]
+2021-02-25 18:15:21.539 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9964/getPackage
+2021-02-25 18:15:21.540 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2021-02-25 18:15:21.541 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Writing [com.mobiquity.packer.model.PackerInputRequest@670b3ca] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2021-02-25 18:15:21.544 DEBUG 16532 --- [o-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/getPackage", parameters={}
+2021-02-25 18:15:21.544 DEBUG 16532 --- [o-auto-1-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.mobiquity.packer.controller.PackerController#getPackage(PackerInputRequest)
+2021-02-25 18:15:21.544 DEBUG 16532 --- [o-auto-1-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.mobiquity.packer.model.PackerInputRequest@53a1701b]
+2021-02-25 18:15:21.544  INFO 16532 --- [o-auto-1-exec-2] c.m.packer.controller.PackerController   : src/test/resources/example_inputwithweightlimitlessthaneveryitem
+Calling this process packages
+AbsolutePath:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_inputwithweightlimitlessthaneveryitem
+Inside try:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_inputwithweightlimitlessthaneveryitem
+2021-02-25 18:15:21.546 DEBUG 16532 --- [o-auto-1-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.mobiquity.packer.exception.RestResponseAPIExceptionHandler#genericExceptionHandler(Exception)
+2021-02-25 18:15:21.546 DEBUG 16532 --- [o-auto-1-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, application/*+json] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-25 18:15:21.546 DEBUG 16532 --- [o-auto-1-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.mobiquity.packer.model.APIExceptionResponse@5d66941f]
+2021-02-25 18:15:21.547 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Response 500 INTERNAL_SERVER_ERROR
+2021-02-25 18:15:21.547 DEBUG 16532 --- [o-auto-1-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2021-02-25 18:15:21.547 DEBUG 16532 --- [o-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2021-02-25 18:15:21.548 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Reading to [com.mobiquity.packer.model.PackerOutputResponse]
+2021-02-25 18:15:21.557 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9964/getPackage
+2021-02-25 18:15:21.558 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2021-02-25 18:15:21.559 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Writing [com.mobiquity.packer.model.PackerInputRequest@6a6f6c7e] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2021-02-25 18:15:21.563 DEBUG 16532 --- [o-auto-1-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/getPackage", parameters={}
+2021-02-25 18:15:21.564 DEBUG 16532 --- [o-auto-1-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.mobiquity.packer.controller.PackerController#getPackage(PackerInputRequest)
+2021-02-25 18:15:21.565 DEBUG 16532 --- [o-auto-1-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.mobiquity.packer.model.PackerInputRequest@60688024]
+2021-02-25 18:15:21.565  INFO 16532 --- [o-auto-1-exec-3] c.m.packer.controller.PackerController   : src/test/resources/example_inputEmpty
+Calling this process packages
+AbsolutePath:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_inputEmpty
+Inside try:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_inputEmpty
+2021-02-25 18:15:21.567 DEBUG 16532 --- [o-auto-1-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.mobiquity.packer.exception.RestResponseAPIExceptionHandler#genericExceptionHandler(Exception)
+2021-02-25 18:15:21.568 DEBUG 16532 --- [o-auto-1-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, application/*+json] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-25 18:15:21.568 DEBUG 16532 --- [o-auto-1-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.mobiquity.packer.model.APIExceptionResponse@6eaf6259]
+2021-02-25 18:15:21.569 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Response 500 INTERNAL_SERVER_ERROR
+2021-02-25 18:15:21.570 DEBUG 16532 --- [o-auto-1-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2021-02-25 18:15:21.570 DEBUG 16532 --- [o-auto-1-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2021-02-25 18:15:21.570 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Reading to [com.mobiquity.packer.model.PackerOutputResponse]
+2021-02-25 18:15:21.580 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:9964/getPackage
+2021-02-25 18:15:21.581 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2021-02-25 18:15:21.581 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Writing [com.mobiquity.packer.model.PackerInputRequest@6c101cc1] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2021-02-25 18:15:21.584 DEBUG 16532 --- [o-auto-1-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/getPackage", parameters={}
+2021-02-25 18:15:21.584 DEBUG 16532 --- [o-auto-1-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.mobiquity.packer.controller.PackerController#getPackage(PackerInputRequest)
+2021-02-25 18:15:21.585 DEBUG 16532 --- [o-auto-1-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.mobiquity.packer.model.PackerInputRequest@35dba793]
+2021-02-25 18:15:21.585  INFO 16532 --- [o-auto-1-exec-4] c.m.packer.controller.PackerController   : src/test/resources/example_invalidPath
+Calling this process packages
+AbsolutePath:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_invalidPath
+Inside try:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_invalidPath
+2021-02-25 18:15:21.586 DEBUG 16532 --- [o-auto-1-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.mobiquity.packer.exception.RestResponseAPIExceptionHandler#genericExceptionHandler(Exception)
+2021-02-25 18:15:21.586 DEBUG 16532 --- [o-auto-1-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, application/*+json] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-25 18:15:21.586 DEBUG 16532 --- [o-auto-1-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.mobiquity.packer.model.APIExceptionResponse@3b1c4f58]
+2021-02-25 18:15:21.587 DEBUG 16532 --- [o-auto-1-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2021-02-25 18:15:21.587 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Response 500 INTERNAL_SERVER_ERROR
+2021-02-25 18:15:21.588 DEBUG 16532 --- [o-auto-1-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2021-02-25 18:15:21.588 DEBUG 16532 --- [           main] o.s.web.client.RestTemplate              : Reading to [com.mobiquity.packer.model.PackerOutputResponse]
+Tests run: 4, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 4.634 sec <<< FAILURE! - in com.mobiquity.packer.controller.PackerControllerIntegrationTest
+givenValidInputFilePath_WhenApiIsCalled_ThenReturnSuccessResponse(com.mobiquity.packer.controller.PackerControllerIntegrationTest)  Time elapsed: 0.566 sec  <<< FAILURE!
+java.lang.AssertionError
+	at com.mobiquity.packer.controller.PackerControllerIntegrationTest.givenValidInputFilePath_WhenApiIsCalled_ThenReturnSuccessResponse(PackerControllerIntegrationTest.java:47)
+
+givenWeightLessThanEveryItemInputFilePath_WhenApiIsCalled_ThenNoIndexesAreSelected(com.mobiquity.packer.controller.PackerControllerIntegrationTest)  Time elapsed: 0.013 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.mobiquity.packer.controller.PackerControllerIntegrationTest.givenWeightLessThanEveryItemInputFilePath_WhenApiIsCalled_ThenNoIndexesAreSelected(PackerControllerIntegrationTest.java:60)
+
+givenEmptyInputFilePath_WhenApiIsCalled_ThenReturnEmptyResponse(com.mobiquity.packer.controller.PackerControllerIntegrationTest)  Time elapsed: 0.018 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.mobiquity.packer.controller.PackerControllerIntegrationTest.givenEmptyInputFilePath_WhenApiIsCalled_ThenReturnEmptyResponse(PackerControllerIntegrationTest.java:72)
+
+givenInvalidInputFilePath_WhenApiIsCalled_ThenAPIExceptionIsThrown(com.mobiquity.packer.controller.PackerControllerIntegrationTest)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<500>
+	at com.mobiquity.packer.controller.PackerControllerIntegrationTest.givenInvalidInputFilePath_WhenApiIsCalled_ThenAPIExceptionIsThrown(PackerControllerIntegrationTest.java:84)
+
+Running com.mobiquity.packer.service.implementation.ProcessPackageServiceImplTest
+Calling this process packages
+AbsolutePath:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_input
+Inside try:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_input
+Calling this process packages
+AbsolutePath:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_inputwithweightlimitlessthaneveryitem
+Inside try:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_inputwithweightlimitlessthaneveryitem
+Calling this process packages
+AbsolutePath:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_inputEmpty
+Inside try:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_inputEmpty
+Calling this process packages
+AbsolutePath:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_invalidPath
+Inside try:C:\Users\C62975\Files\Game\packer\packer\src\test\resources\example_invalidPath
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.155 sec <<< FAILURE! - in com.mobiquity.packer.service.implementation.ProcessPackageServiceImplTest
+givenValidInputFilePath_WhenApiIsCalled_ThenReturnSuccessResponse(com.mobiquity.packer.service.implementation.ProcessPackageServiceImplTest)  Time elapsed: 0.149 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.mobiquity.packer.service.implementation.ProcessPackageServiceImplTest.givenValidInputFilePath_WhenApiIsCalled_ThenReturnSuccessResponse(ProcessPackageServiceImplTest.java:30)
+
+givenWeightLessThanEveryItemInputFilePath_WhenApiIsCalled_ThenNoIndexesAreSelected(com.mobiquity.packer.service.implementation.ProcessPackageServiceImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.mobiquity.packer.service.implementation.ProcessPackageServiceImplTest.givenWeightLessThanEveryItemInputFilePath_WhenApiIsCalled_ThenNoIndexesAreSelected(ProcessPackageServiceImplTest.java:41)
+
+givenEmptyInputFilePath_WhenApiIsCalled_ThenReturnEmptyResponse(com.mobiquity.packer.service.implementation.ProcessPackageServiceImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.mobiquity.packer.service.implementation.ProcessPackageServiceImplTest.givenEmptyInputFilePath_WhenApiIsCalled_ThenReturnEmptyResponse(ProcessPackageServiceImplTest.java:51)
+
+givenInvalidInputFilePath_WhenApiIsCalled_ThenAPIExceptionIsThrown(com.mobiquity.packer.service.implementation.ProcessPackageServiceImplTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<com.mobiquity.packer.exception.APIException> but was<java.lang.NullPointerException>
+	at com.mobiquity.packer.service.implementation.ProcessPackageServiceImplTest.givenInvalidInputFilePath_WhenApiIsCalled_ThenAPIExceptionIsThrown(ProcessPackageServiceImplTest.java:60)
+
+2021-02-25 18:15:22.305  INFO 16532 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+Results :
+
+Failed tests: 
+  PackerControllerIntegrationTest.givenInvalidInputFilePath_WhenApiIsCalled_ThenAPIExceptionIsThrown:84 expected:<400> but was:<500>
+  PackerControllerIntegrationTest.givenValidInputFilePath_WhenApiIsCalled_ThenReturnSuccessResponse:47
+Tests in error: 
+  PackerControllerIntegrationTest.givenEmptyInputFilePath_WhenApiIsCalled_ThenReturnEmptyResponse:72 NullPointer
+  PackerControllerIntegrationTest.givenWeightLessThanEveryItemInputFilePath_WhenApiIsCalled_ThenNoIndexesAreSelected:60 NullPointer
+  ProcessPackageServiceImplTest.givenEmptyInputFilePath_WhenApiIsCalled_ThenReturnEmptyResponse:51 » NullPointer
+  ProcessPackageServiceImplTest.givenInvalidInputFilePath_WhenApiIsCalled_ThenAPIExceptionIsThrown » 
+  ProcessPackageServiceImplTest.givenValidInputFilePath_WhenApiIsCalled_ThenReturnSuccessResponse:30 » NullPointer
+  ProcessPackageServiceImplTest.givenWeightLessThanEveryItemInputFilePath_WhenApiIsCalled_ThenNoIndexesAreSelected:41 » NullPointer
+
+Tests run: 8, Failures: 2, Errors: 6, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.807 s
+[INFO] Finished at: 2021-02-25T18:15:22+01:00
+[INFO] Final Memory: 31M/273M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test) on project packer: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\Users\C62975\Files\Game\packer\packer\target\surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
